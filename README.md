@@ -17,7 +17,7 @@ A simple calculator application built with React.
 ![Calculator Screenshot](./public/Calculator_image.png)
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/jatintyagi1/Calculator.git`
+1. Clone the repository: `git clone https://github.com/jatintyagi1/calculator.git`
 2. Navigate into the directory: `cd calculator`
 3. Install dependencies: `npm install`
 
@@ -33,8 +33,6 @@ A simple calculator application built with React.
 
 ## License
 This project is licensed under the MIT License.
-
-
 
 ## Contact
 For questions or feedback, contact me at tyagijatin6263@gmail.com.

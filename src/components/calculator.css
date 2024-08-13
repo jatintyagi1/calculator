@@ -1,0 +1,89 @@
+
+/* Calculator body */
+.calculator {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+  }
+  
+  /* calculator solution dispay */
+  .calculator-display {
+    margin-bottom: 20px;
+  }
+  /* display input item */
+  .calculator-display-input {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    text-align: right;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .key {
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0000ff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .key:hover {
+    background-color: #b2bec3;
+  }
+  
+  .key:active {
+    background-color: #636e72;
+  }
+
+
+  /*Mobile Responsive css */
+  
+  @media (max-width: 768px) {
+    .calculator {
+        margin: 50px auto;
+        padding: 15px;
+    }
+
+    .calculator-display-input {
+        height: 40px;
+        font-size: 20px;
+    }
+
+    .key {
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .calculator {
+        margin: 30px auto;
+        padding: 10px;
+    }
+
+    .calculator-display-input {
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .key {
+        height: 40px;
+        font-size: 14px;
+    }
+}
