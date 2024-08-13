@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jatintyagi1/calculator/static/css/main.e05de778.css",
+    "main.js": "/jatintyagi1/calculator/static/js/main.e3cff63a.js",
+    "index.html": "/jatintyagi1/calculator/index.html",
+    "main.e05de778.css.map": "/jatintyagi1/calculator/static/css/main.e05de778.css.map",
+    "main.e3cff63a.js.map": "/jatintyagi1/calculator/static/js/main.e3cff63a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e05de778.css",
+    "static/js/main.e3cff63a.js"
+  ]
+}
